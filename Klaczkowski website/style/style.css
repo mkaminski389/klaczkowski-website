@@ -1,0 +1,237 @@
+
+
+/* Global  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Raleway:wght@300;700&display=swap');       
+
+
+
+body {
+    font-family:'Raleway';
+    font-size: 18px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h2{
+    font-weight: 700;
+}
+.container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+/* Global END */
+/* Navbar START */
+
+
+.element-1 {
+    padding-left: 16%;
+    color: #ffd104;
+}
+.element-2 {
+    padding-right: 15%;
+    font-weight: 700;
+    
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+}
+.nav-link {
+    color: rgb(26, 26, 26);
+}
+ .navbar-brand:hover , .nav-link:hover{
+     color: #B1D0E0;
+ }
+ .navbar-toggler {
+color: rgb(0, 0, 0);
+ }
+ .navbar-toggler:active {
+    border:none
+    
+     }
+ .navbar {
+    -webkit-box-shadow: 0px 2px 35px -5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 2px 35px -5px rgba(66, 68, 90, 1);
+    box-shadow: 0px 2px 35px -5px rgba(66, 68, 90, 1);
+ }
+/* Navbar END */
+/* Carousel section */
+
+
+h5 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+.carousel-inner {
+    height: 95vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.point-h5 {
+    height: 50%;
+}
+.carousel-p {
+    font-size: 1rem;
+}
+    /* Carousel section END */
+
+/* Description START */
+.icon-tools {
+    font-size:40px;
+    color: #1A374D;
+    padding-bottom: 20px;
+}
+
+.icon-tools:hover {
+    color: #B1D0E0;
+}
+/* Description END */
+
+/* Portfolio section */
+   
+
+       .card-img-top:hover {
+        filter: brightness(1.2) opacity(0.6);
+        transform: scale(0.96); 
+        transition: 0.1s;
+       }
+    .portfolio-btn {
+        color: white;
+        background-color: #1A374D;
+        border-color: #1A374D;
+    }
+
+    .portfolio-btn:hover {
+        background-color: #B1D0E0;
+        border-color: #B1D0E0;
+    }
+
+    .portfolio-btn:focus, .portfolio-btn:active {
+        background-color: #6998AB;
+        border-color: #6998AB;
+    }
+    .card-title {
+        color: rgb(0, 0, 0);
+    }
+    /* About section */
+
+    .left-col-about, .right-col-about {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        
+        border: 0;
+        padding-bottom: 8%;
+        
+        
+
+    }
+        
+    
+
+    /* stopka */
+    .barrier {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 170px;
+        background-color: #1A374D;
+        color: white;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .barrier>a{
+        text-decoration: none;
+        color: white;
+    }
+    .barrier>a:hover{
+        text-decoration: none;
+        color:#6998AB; 
+        transition: 0.2s;
+    }
+
+    /* Contact section START */
+    .contact-section{
+        color: white;
+        width: 100%;
+    }
+    .h3-contact{
+        font-size: 2.7rem;
+        padding: 3px;
+    }
+    .button-contact {
+        background-color:#B1D0E0;
+       font-weight: 700;
+    }
+    .button-contact:hover{
+        background-color: #6998AB;
+    }
+    .left-col-contact {
+        background-color: #1A374D;
+        padding: 3%;
+    }
+    .right-col-contact {
+        background-color: #406882;
+        padding: 3%;
+    }
+    .contact-col-right-text {
+        font-size: 2.0rem;
+        border: 5px solid #D3D5FD;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Contact section END */
+    /* Footer section START */
+    footer {
+        padding-top: 5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 8%;
+        background-color: #1A374D;
+        color: white;
+    }
+
+    .contact-items {
+        padding: 5px;
+    }
+
+    .footer-icon{
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    .footer-icon:hover {
+        color:#B1D0E0; ;
+    }
+
+    @media only screen and (max-width: 1000px){
+    .carousel-control-prev {
+        visibility: hidden;
+    }
+
+    .carousel-control-next {
+        visibility: hidden;
+    }
+   }
+    
+   ::-webkit-scrollbar {
+    width: 9px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: #000000;    
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background: #406882;
+    } 
+    ::-webkit-scrollbar-track {
+        background-color: #B1D0E0;
+    }
+
+   
