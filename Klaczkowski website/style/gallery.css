@@ -1,0 +1,14 @@
+*{
+    transition: 2s;
+}
+
+
+.gallery-tittle{
+    font-size: 3rem;
+    /* color: rgba(0, 0, 0, 0); */
+}
+
+img:hover{
+    transform: scale(1.1); 
+    transition: 2s;
+}
