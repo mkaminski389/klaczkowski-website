@@ -12,6 +12,38 @@
 }
 
 img:hover{
-    transform: scale(.9); 
-    transition: 2s;
+    transform: scale(1.1); 
+    transition: .3s;
+}
+.container-fast-menu {
+    padding-top: 5%;
+    padding-bottom: 8%;
+    
+}
+
+ .fast-menu {
+    font-size: 2rem;
+    padding-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+.fast-menu>li>a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);;
+    font-weight: 700;
+}
+
+.fast-menu>li>a:hover{
+    color: #B1D0E0;
+    transition: .2s;
+}
+
+
+.container ,.container>.row{
+padding-top: 0px;
 }

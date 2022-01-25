@@ -19,6 +19,11 @@ h2{
     padding-bottom: 8%;
 }
 
+h4{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 
 /* Global END */
 /* Navbar START */
@@ -44,6 +49,7 @@ h2{
 }
  .navbar-brand:hover , .nav-link:hover{
      color: #B1D0E0;
+     transition: 0.3;
  }
  .navbar-toggler {
 color: rgb(0, 0, 0);
@@ -88,6 +94,7 @@ color: rgb(0, 0, 0);
         color: white;
         background-color: #1A374D;
         border-color: #1A374D;
+        font-weight: 700;
     }
 
     .portfolio-btn:hover {
@@ -101,6 +108,8 @@ color: rgb(0, 0, 0);
     }
     .card-title {
         color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 1.5rem;
     }
     /* About section */
 
